@@ -1,0 +1,116 @@
+Poland - published administrative guidance on immigration case handling
+Checked 2026-11-15.
+
+Result: no true case-officer guidance was found or could be obtained. The 4 files
+here are internal orders (zarządzenia) of the Commander-in-Chief of the Border Guard
+from his official journal, i.e. normative acts, kept only because they are the
+published working rules for officers who handle foreigners. All 4 are "procedural act".
+  guidance        0 files
+  procedural act  4 files (2016-2024), 4.4 MB
+This result is weaker than it should be: the two hosts that would carry UdSC and
+labour-ministry material (www.gov.pl, udsc.gov.pl) could not be reached at all from
+this machine (see below), so for them "nothing published" is not established, only
+"nothing found by web search".
+
+Who decides
+- Voivodes (wojewodowie), foreigners' departments of the voivodeship offices: temporary
+  and permanent residence, long-term EU residence, single permits, EU Blue Cards, work
+  permits (zezwolenia na pracę).
+- Head of the Office for Foreigners (Szef Urzędu do Spraw Cudzoziemców, UdSC): appeals
+  against voivodes' decisions; international protection at first instance; Dublin;
+  supervises and trains voivodes' staff (Act on Foreigners).
+- Refugee Board (Rada do Spraw Uchodźców): asylum appeals.
+- Border Guard (Straż Graniczna): refusal of entry, return decisions, detention in
+  guarded centres, escorts, SIS alerts.
+- District labour offices (starostowie): declarations on entrusting work; the labour
+  ministry (MRPiPS) issues explanations of the 20 March 2025 Act on the conditions for
+  entrusting work to foreigners (in force 1 June 2025).
+
+Sources checked
+- USED: Official Journal of the Commander-in-Chief of the Border Guard,
+  https://e-dziennik.strazgraniczna.pl (robots.txt: only /login disallowed). The full
+  listing of 2012-2026 (1,279 acts, from the site's api/eli/acts/... listing) was
+  read by title. Almost all acts are organisational (unit structure, rules of
+  organisation of the Foreigners Directorate, staff, property, data protection). Four
+  orders instruct officers on how foreigners are handled and were saved. Others looked
+  at and left out: SIS-hit handling orders (2013/30, 2023/5; police-type SIS hits, not
+  immigration decisions), Eurodac comparisons for law enforcement (2015/44), rooms for
+  detained persons in general (2015/84), "wytyczne" of the Commander (all on personnel,
+  pay, drones, militarisation, criminal investigations).
+  The server sends an incomplete certificate chain; the missing Sectigo intermediate
+  is added to the default trust store in download_pl.py. TLS verification stays on.
+- Official Journal of the Minister of the Interior and Administration (where acts of
+  the Head of UdSC are published): full listings 2015-2026 (731 items) read by title
+  (these listings were fetched by the earlier agent; not re-fetched). Acts of the Head
+  of UdSC there are only the organisational rules of the Office; the Minister's acts
+  are the Office's statute and yearly lists of approved research units, internship
+  organisers and universities for admitting foreigners. No guidance.
+- Border Guard BIP (bip.kgsg.strazgraniczna.pl, page read by the earlier agent): legal
+  status, structure, journal, draft acts; nothing on case handling.
+- www.gov.pl (UdSC at /web/udsc, labour ministry at /web/rodzina, voivodes at
+  /web/uw-...): robots.txt request timed out three times in a row; host given up.
+- udsc.gov.pl: robots.txt request timed out three times in a row; host given up.
+  (Both resolve to the same government network, 185.32.48.x; it appears to drop
+  connections from this machine. Not a refusal; nothing was worked around.)
+- udsc.bip.gov.pl (UdSC public information bulletin): robots.txt request answered with
+  an Incapsula bot check, HTTP 403. Host closed.
+- psz.praca.gov.pl (public employment services portal, where the labour ministry's
+  explanations for labour offices are posted): robots.txt has "User-agent: ClaudeBot /
+  Disallow: /*". Treated as applying to this collector; not used.
+- Web searches (Polish) for wytyczne / instrukcja / podręcznik of the Head of UdSC for
+  voivodes and for UdSC asylum caseworkers, and for MRPiPS explanations of the 2025
+  act: no published guideline. What surfaced: Sejm interpellation answers, Ombudsman
+  correspondence, voivodeship and labour-office leaflets, a UdSC child-protection
+  policy for reception centres (social assistance, not decisions; on gov.pl, not
+  reachable), commercial re-hosts of a ministry explanation (not an official source).
+  The Ministry of the Interior's answer to the Ombudsman of 14 Nov 2024
+  (https://bip.brpo.gov.pl/sites/default/files/2024-11/Odpowiedz_MSWiA_cudzoziemcy_legalizacja_pobytu_przewleklosc_mswia_14_11_2024.pdf,
+  not downloaded) says that the Head of UdSC repeatedly writes to the directors of the
+  voivodes' foreigners departments - such letters exist but are not published.
+- Internet Archive: not used in this run (parallel agents). download_pl.py has an
+  optional source "ia" that only lists archived PDFs of udsc.gov.pl and
+  www.gov.pl/attachment with guidance keywords in the URL.
+
+What is in this folder (all kind = procedural act)
+- 2016-07-29 Order No 84 on how officers perform escorts of foreigners
+  (doprowadzenia), and 2023-02-22 Order No 4 amending it.
+- 2024-03-21 Order No 16 on service of officers in guarded centres and detention
+  facilities for foreigners.
+- 2023-06-28 Order No 35 on entries in the Schengen Information System, including
+  return-decision alerts made by the Director of the Foreigners Directorate.
+  PDFs are the journal's electronically signed originals, unmodified.
+
+EU Blue Card / temporary work agencies
+- No document obtained addresses the EU Blue Card, temporary work agencies or employers
+  of record. These matters are governed by the Act on Foreigners and the 2025 Act on
+  entrusting work to foreigners (statutes, not collected). The labour ministry answered
+  a Sejm interpellation (i10516) that the 2025 act does not restrict process
+  outsourcing and that voivodes have difficulty establishing the real subject of such
+  service contracts - evidence that the question is live, but no published guidance on
+  it was found.
+
+How much real guidance: none found. Poland's deciding officials work from the statutes,
+ministerial regulations and unpublished letters and instructions of the Head of UdSC
+and of the labour ministry; the only published internal rules are a handful of Border
+Guard orders on escorts, detention and SIS entries.
+
+Completeness doubts
+- gov.pl and udsc.gov.pl could not be checked at all; UdSC news items (e.g. a 2024
+  summary of rules for representatives in protection cases) and any MRPiPS
+  "wyjaśnienia" on gov.pl are unverified.
+- Voivodeship offices' own BIPs (internal procedures of their foreigners departments)
+  were not searched.
+- Selection from the Border Guard journal was by title.
+
+Copyright / confidentiality notices: none on the saved documents.
+
+Not obtained: see not-obtained.tsv.
+
+Earlier work vs this run: an earlier agent had fetched the Border Guard journal and
+Interior journal listings, Border Guard home/BIP pages and assembled the certificate
+intermediate (scratch only; nothing in pl/). Selection, downloads, script and notes
+are from this run.
+
+Re-run: python3 download_pl.py   (skips files already present; 9 requests incl.
+robots.txt, 2 s apart; rewrites index.tsv and not-obtained.tsv)
+Optional: python3 download_pl.py ia   (Internet Archive candidate listing only)
